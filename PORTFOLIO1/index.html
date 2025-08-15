@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rachna-Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome CDN -->
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+        <label for="" class="logo">RAC<span>HNA</span></label>
+        <ul class="navlist">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Contact">Contact Us</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <!-- HOME-PAGE -->
+    <section id="Home" class="home">
+      <div class="home-content">
+        <h2 class="name">Hi! I Am
+          <span class="c1">Rachna</span>
+          <span class="c2">Kumari</span>
+        </h2>
+        <h1>Web Developer</h1>
+        <p class="para-content">I am Rachna Kumari, a frontend web developer and creative enthusiast with a passion for building visually appealing and user-friendly websites.</p>
+        <div class="btn-box">
+          <button class="btn-1">Hire me</button>
+          <!-- <button class="btn-2">View Project</button> -->
+          <button class="btn-2" onclick="showProjects()">View Project</button>
+        </div>
+      </div>
+      <div class="img-box1">
+        <img src="./image/stoneBag.jpg" alt="Profile">
+      </div>
+    </section>
+
+    <!-- BIO-DATA -->
+    <section id="About" class="about">
+      <div class="about-img">
+        <img src="./image/bag.jpg" alt="">
+      </div>
+      <div class="about-content">
+        <h1 class="heading">My Bio <span>Data</span></h1>
+        <h2>Frontend <span>Developer</span></h2>
+        <p>I am Rachna Kumari, a frontend web developer and creative enthusiast with a passion for building visually appealing and user-friendly websites. I enjoy turning ideas into interactive digital experiences using HTML, CSS, and JavaScript. I am constantly learning and exploring new tools and technologies to enhance my skills and bring fresh perspectives to every project I work on. With a keen eye for detail and a love for clean, efficient code, I strive to create web solutions that are both functional and aesthetically pleasing.</p>
+        <button onclick="showCertificate()" class="btn"><a href="#"></a> Experience</button>
+        <div style="display:none;" id="certificate-container">
+          <img id="certificate" src="exprience.jpg" alt="Experience Certificate">
+        </div>
+        <button class="btn0"><a href="#"></a> Download CV</button>
+      </div>
+    </section>
+
+    <!-- LATEST-WORKS -->
+    <section class="works">
+      <h1>LATEST WORKS</h1>
+      <p>Recently, I created this website using HTML and CSS. I also
+        developed two additional websites previously.</p>
+      <div class="b">
+        <a href="#">Websites</a>
+        <a href="#">YouTube</a>
+        <a href="#">Designs</a>
+      </div>
+      <div class="picture">
+        <img src="./image/image1.jpg" alt="Website 1">
+        <img src="./image/image2.jpg" alt="Website 2">
+        <img src="./image/image3.jpg" alt="Website 3">
+      </div>
+    </section>
+
+
+
+    <!-- AVABAILABILITY -->
+    <div class="background-image"></div>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>I Am <span>available</span> for freelancing</h1>
+        <p>I' am Rachna kumari. a frontend web developer and also full stack web developer</p>
+        <a href="#" class="cta-button">HIRE ME</a>
+      </div>
+    </section>
+
+    <!-- SERVICES- OFFERS -->
+    <section id="Services" class="service">
+      <h1>SERVICES OFFERS</h1>
+      <p>I provide specific services like Web Projects App Development related and provide Photography services.</p>
+      <div class="service-cart">
+        <div class="web-design">
+          <span class="icon">💻</span>
+          <h2>Web Design</h2>
+          <p>“I am a web Designer to design a website templates and web app interfaces. Basically I use trends layouts”
+          </p>
+        </div>
+        <div class="Web-Development">
+          <span class="icon">⌨️</span>
+          <h2>Web-Development</h2>
+          <p>“I have a study about html css javascript and java programming and I become a web developer And develop a
+            websites.”</p>
+        </div>
+        <div class="photography">
+          <span class="icon">📷</span>
+          <h2>Photography</h2>
+          <p>“ I have also a photographer and clicks some unique pic's like nature picture and cars and make some
+            editing. video and photos.”</p>
+        </div>
+        <div class="Mobile-Apps">
+          <span class="icon">📱</span>
+          <h2>Mobile Apps</h2>
+          <p>“I develop a mobile apps using a java programming and python like application apps medical apps.”</p>
+        </div>
+        <div class="app-interface">
+          <span class="icon">🎨</span>
+          <h2>App Interface</h2>
+          <p>“I use java and python programming to develop app interfaces and designs their interfaces .”</p>
+        </div>
+        <div class="graphic-design">
+          <span class="icon">🖌️</span>
+          <h2>Graphic Design</h2>
+          <p>“I am also a Graphic designer and design some graphic. Animate videos and animation in websites.”</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT-FORM -->
+    <section id="Contact" class="contact-form">
+      <h2 class="contact-me">Contact <span>Me</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email">
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Phone number">
+          <input type="text" placeholder="Subject">
+        </div>
+        <textarea name="" cols="30" rows="4" placeholder="Your Message"></textarea>
+
+        <input type="submit" value="Send Message" class="submit-button">
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <div class="footer-container">
+        <!-- About Section -->
+        <div class="f-about">
+          <h3>About</h3>
+          <p>I'm Rachna Kumari, a 3rd-year engineering student at JB Knowledge Park, specializing in <span>Computer
+              Science</span>.</p>
+          <p>If you want to know more about me, send me a message or reach out to me at:</p>
+        </div>
+   
+
+        <!-- Quick Links -->
+        <div class="f-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="f-services">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#web-design">Web Design</a></li>
+            <li><a href="#web-development">Web Development</a></li>
+            <li><a href="#web-projects">Web Projects</a></li>
+            <li><a href="#online-contact">Online Contact</a></li>
+            <li><a href="#youtube">YouTube</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="f-contact">
+          <h3>Have a Question?</h3>
+          <address>
+            <div>
+              <p>
+                <span><ion-icon name="location-outline"></ion-icon></span>
+                Gopalganj, Bihar
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><ion-icon name="call-outline"></ion-icon></span>
+                <a href="tel:+919161903649">+91 1234567890</a>
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><ion-icon name="mail-outline"></ion-icon></span>
+                <a href="mailto:rachnakumari123@gmail.com">rachnakumari123@gmail.com</a>
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="f-icons">
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+
+      <!-- Credits -->
+      <div class="f-credits">
+        &copy;<a href="#">Rachna Kumari</a> <span>❤</span> - All Rights Reserved
+        
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
