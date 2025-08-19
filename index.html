@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rachna-Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <nav class="navbar">
+        <div class="logo">RAC<span>HNA</span></div>
+        <div class="nav-container">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="navlist">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+  <main>
+    <section id="Home" class="home">
+      <div class="home-content">
+        <h2 class="name">Hi! I Am
+          <span class="c1">Rachna</span>
+          <!-- <span class="c2">Kumari</span> -->
+        </h2>
+        <h1>Web Developer</h1>
+        <p class="para-content">I am Rachna Kumari, a frontend web developer and creative enthusiast with a passion for
+          building visually appealing and user-friendly websites.</p>
+        <div class="btn-box">
+          <a href="#Contact" class="btn btn-1">Hire me</a>
+          <a href="#works" class="btn btn-2">View Projects</a>
+        </div>
+      </div>
+      <div class="img-box1">
+        <img src="./image/stoneBag.jpg" alt="Rachna Kumari">
+      </div>
+    </section>
+
+      <section id="About" class="about">
+        <div class="about-img">
+            <img src="./image/bag.jpg" alt="Rachna Kumari">
+        </div>
+        <div class="about-content">
+            <h1 class="heading">My Bio <span>Data</span></h1>
+            <h2>Frontend <span>Developer</span></h2>
+            <p>I am Rachna Kumari, a frontend web developer and creative enthusiast with a passion for building visually appealing and user-friendly websites. I enjoy turning ideas into interactive digital experiences using HTML, CSS, and JavaScript. I am constantly learning and exploring new tools and technologies to enhance my skills and bring fresh perspectives to every project I work on. With a keen eye for detail and a love for clean, efficient code, I strive to create web solutions that are both functional and aesthetically pleasing.</p>
+          <div class="about-buttons">
+        <a href="#" class="btn btn-cv">
+            Download CV
+            <i class="fa-solid fa-download"></i>
+        </a>
+        <a href="#Experience" class="btn">Experience</a>
+    </div>
+        </div>
+    </section>
+
+    <section id="works" class="works">
+      <h1>LATEST WORKS</h1>
+      <p>Recently, I created this website using HTML and CSS. I also developed two additional websites previously.</p>
+      <div class="b">
+        <a href="#" class="btn-tab active">Websites</a>
+      </div>
+      <div class="picture">
+        <a href="https://github.com/rachnakri5/pwskills" target="_blank">
+          <img src="./image/pwSkill.png" alt="Website 1">
+        </a>
+        <a href="https://github.com/rachnakri5/portFolio.git" target="_blank">
+          <img src="./image/doCare.png" alt="Website 2">
+        </a>
+        <a href="https://github.com/rachnakri5/DoCare.git" target="_blank">
+          <img src="./image/portfolio.png" alt="Website 3">
+        </a>
+      </div>
+    </section>
+
+    <div class="background-image"></div>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>I Am <span>available</span> for freelancing</h1>
+        <p>I'm Rachna Kumari, a frontend web developer and also full-stack web developer.</p>
+        <a href="#Contact" class="cta-button">HIRE ME</a>
+      </div>
+    </section>
+
+    <section id="Services" class="service">
+      <h1>SERVICES OFFERS</h1>
+      <p>I provide specific services like Web Projects, App Development, and Photography.</p>
+      <div class="service-cart">
+        <div class="service-item">
+          <span class="icon">💻</span>
+          <h2>Web Design</h2>
+          <p>I design website templates and web app interfaces using modern layouts and design trends.</p>
+        </div>
+        <div class="service-item">
+          <span class="icon">⌨️</span>
+          <h2>Web Development</h2>
+          <p>I develop websites using HTML, CSS, and JavaScript, creating functional and interactive solutions.</p>
+        </div>
+        <div class="service-item">
+          <span class="icon">📷</span>
+          <h2>Photography</h2>
+          <p>I am also a photographer who captures unique photos of nature, cars, and other subjects, with a passion for
+            editing.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="Contact" class="contact-form">
+      <h2 class="contact-me">Contact <span>Me</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email" required>
+        </div>
+        <div class="input-box">
+          <input type="tel" placeholder="Phone number">
+          <input type="text" placeholder="Subject">
+        </div>
+        <textarea name="message" cols="30" rows="4" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="submit-button">
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#Home" class="footer-logo">RACHNA</a>
+          <p>A passionate Frontend Web Developer and creative enthusiast.</p>
+          <div class="social-icons">
+            <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i
+                class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links-group">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#works">Portfolio</a></li>
+            <li><a href="#Contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <p>Gopalganj, Bihar</p>
+          <p><a href="tel:+919161903649">+91 1234567890</a></p>
+          <p><a href="mailto:rachnakumari123@gmail.com">rachnakumari123@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Rachna Kumari. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+</body>
+
+</html>
